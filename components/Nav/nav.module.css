@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.navItem {
+  color: black;
+}
