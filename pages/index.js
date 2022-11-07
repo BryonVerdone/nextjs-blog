@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import Nav from '../components/Nav/Nav';
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
@@ -19,6 +20,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <Nav />
         <p>Hello, I'm Bryon. I'm a software engineer and IT professional </p>
         <p>
           Take a look at my code{' '}
