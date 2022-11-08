@@ -16,10 +16,10 @@ body {
   box-sizing: border-box;
 }
 
-a {
+/* a {
   color: #00f314de;
   text-decoration: none;
-}
+} */
 
 a:hover {
   text-decoration: underline;
@@ -28,4 +28,7 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+h2 {
+  font-size: 32px;
 }
