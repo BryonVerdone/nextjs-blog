@@ -4,10 +4,13 @@ import Link from 'next/link';
 const Nav = () => {
   return (
     <nav className={styles.navbar}>
-      <Link className={styles.navItem} href={'/about-me'}>
+      <Link className='text-secondary' href={'/'}>
+        Home
+      </Link>
+      <Link className='text-secondary' href={'/about-me'}>
         About Me
       </Link>
-      <Link className={styles.navItem} href={'/projects'}>
+      <Link className='text-secondary' href={'/projects'}>
         Projects
       </Link>
     </nav>
