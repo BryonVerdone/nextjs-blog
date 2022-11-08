@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-
+import Nav from './Nav/Nav';
 const name = 'Bryon Verdone';
 export const siteTitle = 'Bryon Verdone';
 
@@ -36,8 +36,8 @@ export default function Layout({ children, home }) {
               width={200}
               alt=''
             />
-            {/* <Nav /> */}
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            {/* <Nav /> */}
           </>
         ) : (
           <>
@@ -46,8 +46,8 @@ export default function Layout({ children, home }) {
                 priority
                 src='/images/profile.jpg'
                 className={utilStyles.borderCircle}
-                height={108}
-                width={108}
+                height={200}
+                width={200}
                 alt=''
               />
             </Link>
@@ -59,6 +59,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+      <Nav />
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
