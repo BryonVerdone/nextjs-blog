@@ -21,8 +21,19 @@
 }
 
 .headingMd {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
+}
+
+.homeContent {
+  /* text-align: center; */
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 390px) {
+  .homeContent {
+    text-align: center;
+  }
 }
 
 .borderCircle {

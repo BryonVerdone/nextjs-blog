@@ -5,6 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import Nav from './Nav/Nav';
 const name = 'Bryon Verdone';
+import Footer from './Footer/Footer';
 export const siteTitle = 'Bryon Verdone';
 
 export default function Layout({ children, home }) {
@@ -67,6 +68,7 @@ export default function Layout({ children, home }) {
           <Link href='/'>← Back to home</Link>
         </div>
       )}
+      <Footer />
     </div>
   );
 }

@@ -13,6 +13,9 @@ const Nav = () => {
       <Link className='text-secondary' href={'/projects'}>
         Projects
       </Link>
+      <Link className='text-secondary' href={'/uses'}>
+        Uses
+      </Link>
     </nav>
   );
 };
