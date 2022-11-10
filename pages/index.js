@@ -19,13 +19,16 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={utilStyles.homeContent}>
         {/* <Nav /> */}
-        <p>Hello, I'm Bryon. I'm a software engineer and IT professional </p>
+        <p>
+          Hello, I'm Bryon. I'm a software engineer and IT professional that
+          uses Javascript to build sites and web apps{' '}
+        </p>
         <p>
           Take a look at my code{' '}
           <a
-            className='link'
+            className='text-secondary'
             target='_blank'
             href='https://github.com/BryonVerdone'
           >
