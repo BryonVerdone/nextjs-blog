@@ -1,1 +1,1 @@
-This is my personal blog page where I share my thoughts on various topics
+This is my personal site where I share my thoughs on various topics, projects and the technology and tools I use.
