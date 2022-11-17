@@ -4,9 +4,6 @@ import Link from 'next/link';
 const Nav = () => {
   return (
     <nav className={styles.navbar}>
-      <Link className='text-secondary' href={'/'}>
-        Home
-      </Link>
       <Link className='text-secondary' href={'/about-me'}>
         About Me
       </Link>
@@ -15,6 +12,9 @@ const Nav = () => {
       </Link>
       <Link className='text-secondary' href={'/uses'}>
         Uses
+      </Link>
+      <Link className='text-secondary' href='/contact'>
+        Contact
       </Link>
     </nav>
   );
