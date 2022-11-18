@@ -8,7 +8,11 @@ const Uses = () => {
         <article>
           <h3>Office Setup</h3>
           <ul>
-            <li>Custom built PC</li>
+            <li>
+              <a href='https://pcpartpicker.com/user/bverdone/saved/#view=HgwF8d'>
+                Custom PC
+              </a>
+            </li>
           </ul>
         </article>
         <article>
