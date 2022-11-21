@@ -32,3 +32,7 @@ img {
 h2 {
   font-size: 32px;
 }
+ul {
+  padding-left: 1rem;
+  list-style: circle;
+}
