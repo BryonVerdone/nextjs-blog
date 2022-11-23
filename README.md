@@ -1,1 +1,3 @@
-This is my personal site where I share my thoughs on various topics, projects and the technology and tools I use. This site is built using nextjs and tailwind
+This is my personal blog where I share my thoughs on various topics. This site is built using nextjs and tailwind
+
+You can find the live site at [myjsjourney.com](https://myjsjourney.com)
