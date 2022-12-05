@@ -4,7 +4,6 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
-import Nav from '../components/Nav/Nav';
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
@@ -20,20 +19,8 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.homeContent}>
-        {/* <Nav /> */}
         <p>
-          Hello, I'm Bryon. I'm a software engineer and IT professional that
-          uses Javascript to build sites and web apps{' '}
-        </p>
-        <p>
-          Take a look at my code{' '}
-          <a
-            className='text-secondary'
-            target='_blank'
-            href='https://github.com/BryonVerdone'
-          >
-            here
-          </a>
+           I'm Bryon, an IT professtional and web developer. This is where I share my thoughts and opinions on various topics ranging from coding, networking and my many other interests. You can check out my portfilio site <a className='text-secondary' target='_blank' href="https://www.bryonverdone.com/">here</a>  
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
