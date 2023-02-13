@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Logo from '../public/images/Bryon Logo.svg';
 const name = 'Bryon Verdone';
 export const siteTitle = 'Bryon Verdone';
 
@@ -29,13 +30,13 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src='/images/profile.jpg'
+              src={Logo}
               className={utilStyles.borderCircle}
-              height={200}
-              width={200}
+              height={300}
+              width={500}
               alt=''
             />
-            <h1 className={utilStyles.headingLg}>{name}</h1>
+            {/* <h1 className={utilStyles.headingLg}>{name}</h1> */}
             {/* <Nav /> */}
           </>
         ) : (
@@ -43,19 +44,19 @@ export default function Layout({ children, home }) {
             <Link href='/'>
               <Image
                 priority
-                src='/images/profile.jpg'
+                src={Logo}
                 className={utilStyles.borderCircle}
-                height={200}
-                width={200}
+                height={100}
+                width={500}
                 alt=''
               />
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              {/* <Link href='/' className={utilStyles.colorInherit}>
+            {/* <h2 className={utilStyles.headingLg}> */}
+            {/* <Link href='/' className={utilStyles.colorInherit}>
                 {name}
               </Link> */}
-              {name}
-            </h2>
+            {/* {name} */}
+            {/* </h2> */}
           </>
         )}
       </header>
